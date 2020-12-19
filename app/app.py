@@ -20,7 +20,7 @@ def home():
     """List all routes that are available."""
 
     return (
-        "<h1>Welcome to my home page!</h1>"
+        "<h1>Movies</h1>"
         f"Available Routes:<br/>"
         f"/api/v1.0/top_10_movies<br/>"
         f"/api/v1.0/avg_rating_genre<br/>"
