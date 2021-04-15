@@ -1,4 +1,4 @@
-# ETL_Project
+# Movie Data Pipeline
 
 ## Background
 Imagine a bunch of data came in and it needs to be migrated it to a production data base.
@@ -45,5 +45,5 @@ This showed us which country had the most movies shown for the top 100 2020 movi
 Spike Lee and Hlynur Palmason each had two films in the Top 100 for 2020 by Spike Lee had the highest average rating of reviews with 94.50.
 
 - Film Count by Actor
-![Actor]()sql_queries_output/actor_count.png
+![Actor](sql_queries_output/actor_count.png)
 Elisabeth Moss and Lucas Jaye were each in two films in teh Top 100 for 2020.
