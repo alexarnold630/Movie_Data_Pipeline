@@ -44,6 +44,11 @@ def get_director_rating():
     data = sqlHelper.get_director_count()
     return jsonify(json.loads(data.to_json(orient="records")))
 
+@app.route("/api/v1.0/actor_count")
+def get_actor_count():
+    data = sqlHelper.get_actor_count()
+    return jsonify(json.loads(data.to_json(orient="records")))
+
 @app.route("/api/v1.0/titles_by_country")
 def get_titles_by_country(self):
     data = sqlHelper.get_titles_by_country()
